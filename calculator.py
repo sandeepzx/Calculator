@@ -70,7 +70,7 @@ Button(root,text=" ( ", command=lambda: get_operation("(")).grid(row=6,column=4)
 Button(root,text=" % ", command=lambda: get_operation("%")).grid(row=2,column=5)
 Button(root,text=" x!", command=lambda: get_operation("!")).grid(row=3,column=5)
 Button(root,text=" pi", command=lambda: get_operation("3.14")).grid(row=4,column=5)
-Button(root,text="exp", command=lambda: get_operation("(")).grid(row=5,column=5)
+Button(root,text="exp", command=lambda: get_operation("**")).grid(row=5,column=5)
 Button(root,text=" ) ", command=lambda: get_operation(")")).grid(row=6,column=5)
 
 root.mainloop()
